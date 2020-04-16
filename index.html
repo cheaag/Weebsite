@@ -19,14 +19,27 @@ they feel like it. Again <i><strong>Mostly trained</strong></i>.</p>
 </h4>
 
 <form action="index.html" method="post">
-	<select name="DogName">
-		<option value="Koda"></option>
-		<option value="Rosie"></option>
-		<option value="Zoey"></option>
-		<option value="Trumbo"></option>
-		<option value="Shiloh"></option>
+	<p>Which Dog would you like to buy?</p>
+	<select name="DogName" size="3" style="width: 100px" >
+		<option value="Koda">Koda</option>
+		<option value="Rosie">Rosie</option>
+		<option value="Zoey">Zoey</option>
+		<option value="Trumbo">Trumbo</option>
+		<option value="Shiloh">Shiloh</option>
 	</select>
+	<input type="submit" name="DogName" value="Buy">
 </form>
+
+<fieldset>
+	<legend>Contact Information</legend>
+	<label>Name:<br>
+	<input type="text" name="Name">
+	</label><br>
+	<label>Email:<br>
+	<input type="text" name="email"></label>
+	<br>
+	<label>Mobile:<br><input type="text" name="mobile"></label>
+</fieldset>
 
 <div id="table">
 	<table>
